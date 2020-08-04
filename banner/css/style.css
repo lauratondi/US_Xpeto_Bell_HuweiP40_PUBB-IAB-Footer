@@ -1,0 +1,203 @@
+body {
+  background: white;
+}
+
+@font-face {
+  font-family: "BellSlimSemiBold";
+  src: url("../assets/BellSlimSemiBold.ttf") format("truetype");
+}
+
+.wrapper {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.content-container {
+  display: flex;
+}
+
+#bellel img {
+  position: absolute;
+  width: 14%;
+}
+
+#cta img {
+  display: flex;
+  position: absolute;
+  width: 10%;
+  left: 73%;
+  top: 34%;
+}
+
+#cta img:hover {
+  opacity: 0.8;
+}
+#bellBlue img {
+  display: flex;
+  position: absolute;
+  width: 10%;
+  left: 88.5%;
+  top: 23%;
+
+  /* COLLAPSED-------- */
+}
+#phone0 img {
+  position: absolute;
+  height: 45%;
+  top: 5%;
+  left: 13.5%;
+  opacity: 1;
+}
+
+#text0 {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 23px;
+  left: 32%;
+  top: 11%;
+  line-height: 1.2;
+  opacity: 1;
+  letter-spacing: 1px;
+}
+
+#text0small {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 15px;
+  top: 35%;
+  left: 31.7%;
+  opacity: 1;
+}
+
+#text0tiny {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 10px;
+  top: 42.5%;
+  left: 31.7%;
+  opacity: 1;
+}
+
+/* -----------EXPANDABLE 1--------- */
+
+#phone1 img {
+  position: absolute;
+  height: 70%;
+  bottom: 0;
+  left: 9%;
+  opacity: 0;
+}
+
+#content1 p {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 25px;
+  left: 37%;
+  top: 35%;
+  line-height: 1.2;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+/* -----------EXPANDABLE 2--------- */
+
+#phone2 img {
+  position: absolute;
+  height: 70%;
+  bottom: 0;
+  left: 9%;
+  opacity: 0;
+}
+
+#content2 p {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 23px;
+  left: 37%;
+  top: 35%;
+  line-height: 1.2;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+/* -----------EXPANDABLE 3--------- */
+
+#phone3 img {
+  position: absolute;
+  height: 70%;
+  bottom: 0;
+  left: 9%;
+  opacity: 0;
+}
+
+#content3 p {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 23px;
+  left: 37%;
+  top: 35%;
+  line-height: 1.2;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+/* -----------EXPANDABLE 4--------- */
+
+#phone4 img {
+  position: absolute;
+  height: 110%;
+  top: 0;
+  left: 8%;
+  opacity: 0;
+}
+
+#content4 .big {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 28px;
+  left: 29%;
+  top: 37%;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+#content4 .small {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 17px;
+  left: 29%;
+  top: 51%;
+  line-height: 1.4;
+  opacity: 0;
+  /* letter-spacing: 1px; */
+}
+
+/* -----------EXPANDABLE 5--------- */
+
+#phone5 img {
+  position: absolute;
+  height: 70%;
+  bottom: 0;
+  left: 11%;
+  opacity: 0;
+}
+
+#content5 p {
+  position: absolute;
+  font-family: "BellSlimSemiBold";
+  font-size: 28px;
+  left: 37%;
+  top: 50%;
+  line-height: 1.2;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+#huaLogo img {
+  position: absolute;
+
+  height: 15%;
+  left: 37.5%;
+  top: 33%;
+  opacity: 0;
+}
